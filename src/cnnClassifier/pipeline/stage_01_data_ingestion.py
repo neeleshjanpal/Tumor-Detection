@@ -1,4 +1,4 @@
-from cnnClassifier.config.configuration import ConfiguratonManager
+from cnnClassifier.config.configuration import ConfigurationManager
 from cnnClassifier.components.data_ingestion import DataIngestion
 from cnnClassifier import logger
 
@@ -9,7 +9,7 @@ class DataIngestionTrainingPipeline:
         pass
 
     def main(self):
-        config = ConfiguratonManager()
+        config = ConfigurationManager()
         data_ingestion_config = config.get_data_ingestion_config()
         data_ingestion = DataIngestion(config=data_ingestion_config)
         data_ingestion.download_file()
