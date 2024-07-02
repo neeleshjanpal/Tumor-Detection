@@ -160,3 +160,10 @@ cython_debug/
 #.idea/
 
 artifacts/*
+
+# MLflow
+mlruns/
+mlartifacts/
+outputs/
+mlruns.db
+**/basic_auth.db

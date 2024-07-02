@@ -1,1 +1,1 @@
-Kidney-Disease-Classification-MLflow-DVC
+Deep Learning model for detecting tumor.
